@@ -1,0 +1,17 @@
+def pounds(number):
+    result = []
+    for element in number:
+        result = result + [element * 0.453592]
+    return result
+#The code converts pounds to kilograms.
+pounds([100])
+print pounds([100])
+#The result is 45.3592.
+x = [125, 100, 175]
+pounds(x)
+print pounds(x)
+#The result is 56.699, 45.3592, and 79.3786 respectively.
+x = 100
+y = 2.205
+print pounds ([x * y])
+#Result is 100. This converts kilograms back to pounds.
